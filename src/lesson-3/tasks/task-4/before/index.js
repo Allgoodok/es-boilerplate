@@ -8,7 +8,6 @@ timer.init(0, () => {
 
 timer.start(1, time => {
     const template = `Minutes: ${ time.minutes } Seconds: ${ time.seconds }`;
-
     console.log(template);
 });
 
