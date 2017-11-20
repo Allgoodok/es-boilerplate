@@ -32,5 +32,5 @@ setTimeout(() => {
             console.log(template);
         });
     }, 3000);
-}, 3000);
+}, 5000);
 
