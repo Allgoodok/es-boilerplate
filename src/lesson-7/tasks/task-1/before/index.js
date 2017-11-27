@@ -43,14 +43,15 @@ const all = dataManager.getEntities();
 const count = dataManager.getCount();
 
 // Get entity by entity.id
-const entityById = dataManager.getEntityById(1);
+//const entityById = dataManager.getEntityById(1);
 
 // Get first entity
 const first = dataManager.getFirstEntity();
+console.log(first);
 
 // Get last entity
 const last = dataManager.getLastEntity();
-
+console.log(last);
 // Filter entities by callback
 const filtered = dataManager.filter(({ sex, age }) => sex === 'male' && age > 20);
 
